@@ -1,0 +1,11 @@
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\bin\Debug\netcoreapp2.1\ProductShopDatabase.deps.json
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\bin\Debug\netcoreapp2.1\ProductShopDatabase.runtimeconfig.json
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\bin\Debug\netcoreapp2.1\ProductShopDatabase.runtimeconfig.dev.json
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\bin\Debug\netcoreapp2.1\ProductShopDatabase.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\obj\Debug\netcoreapp2.1\ProductShopDatabase.csprojAssemblyReference.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\obj\Debug\netcoreapp2.1\ProductShopDatabase.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\obj\Debug\netcoreapp2.1\ProductShopDatabase.AssemblyInfoInputs.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\obj\Debug\netcoreapp2.1\ProductShopDatabase.AssemblyInfo.cs
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\bin\Debug\netcoreapp2.1\ProductShopDatabase.pdb
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\obj\Debug\netcoreapp2.1\ProductShopDatabase.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\obj\Debug\netcoreapp2.1\ProductShopDatabase.pdb
