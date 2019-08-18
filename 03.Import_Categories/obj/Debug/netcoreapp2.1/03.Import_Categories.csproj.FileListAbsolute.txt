@@ -1,0 +1,14 @@
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\bin\Debug\netcoreapp2.1\03.Import_Categories.deps.json
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\bin\Debug\netcoreapp2.1\03.Import_Categories.runtimeconfig.json
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\bin\Debug\netcoreapp2.1\03.Import_Categories.runtimeconfig.dev.json
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\bin\Debug\netcoreapp2.1\03.Import_Categories.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\bin\Debug\netcoreapp2.1\03.Import_Categories.pdb
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\bin\Debug\netcoreapp2.1\ProductShopDatabase.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\bin\Debug\netcoreapp2.1\ProductShopDatabase.pdb
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\obj\Debug\netcoreapp2.1\03.Import_Categories.csprojAssemblyReference.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\obj\Debug\netcoreapp2.1\03.Import_Categories.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\obj\Debug\netcoreapp2.1\03.Import_Categories.AssemblyInfoInputs.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\obj\Debug\netcoreapp2.1\03.Import_Categories.AssemblyInfo.cs
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\obj\Debug\netcoreapp2.1\03.Import_Categories.csproj.CopyComplete
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\obj\Debug\netcoreapp2.1\03.Import_Categories.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\03.Import_Categories\obj\Debug\netcoreapp2.1\03.Import_Categories.pdb
