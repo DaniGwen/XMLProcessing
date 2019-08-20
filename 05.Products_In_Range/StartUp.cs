@@ -34,9 +34,9 @@ namespace _05.Products_In_Range
                 .Take(10)
                 .ToArray();
 
-            //Initialize XMLserializer with XML root attribute "Products"
+            //Initialize XMLserializer with XML root attribute "Products" from type "ExportProductDto"
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(ExportProductDto[]),
-                new XmlRootAttribute("products"));
+                new XmlRootAttribute("Products"));
 
             //REMOVE TOP NAMESPACE IN XML FILE
             var namespaces = new XmlSerializerNamespaces(new[]
@@ -48,6 +48,8 @@ namespace _05.Products_In_Range
 
             //Write all products in string builder
             xmlSerializer.Serialize(new StringWriter(sb), products, namespaces);
+
+            File.WriteAllText(@"C:\Users\thinkpad\Desktop\products-inrange.xml", sb.ToString());
 
             return sb.ToString();
         }
