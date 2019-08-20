@@ -30,18 +30,18 @@ namespace _06.Sold_Products
                 .Where(u => u.ProductsSold.Count > 0)
                 .OrderBy(u => u.LastName)
                 .ThenBy(u => u.FirstName)
-                .Select(u => new
+                .Select(u => new SoldProductsDto
                 {
                     FirstName = u.FirstName,
                     LastName = u.LastName,
-                    Products = u.ProductsSold.Select(p => new
+                    ProductsDto = u.ProductsSold.Select(p => new ProductDto
                     {
-                        p.Name,
-                        p.Price
-                    })
+                       Name = p.Name,
+                       Price = p.Price
+                    }).ToArray()
                 })
                 .Take(5)
-                .ToList();
+                .ToArray();
 
             var namespaces = new XmlSerializerNamespaces(new[]
             {
@@ -50,7 +50,7 @@ namespace _06.Sold_Products
 
             var sb = new StringBuilder();
 
-            var xmlSerializer = new XmlSerializer(typeof(SoldProductsDto[]), new XmlRootAttribute("users"));
+            var xmlSerializer = new XmlSerializer(typeof(SoldProductsDto[]), new XmlRootAttribute("Users"));
 
             xmlSerializer.Serialize(new StringWriter(sb), users,namespaces);
 
