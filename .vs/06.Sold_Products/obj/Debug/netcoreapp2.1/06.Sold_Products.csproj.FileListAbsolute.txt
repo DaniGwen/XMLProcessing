@@ -1,0 +1,14 @@
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\bin\Debug\netcoreapp2.1\06.Sold_Products.deps.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\bin\Debug\netcoreapp2.1\06.Sold_Products.runtimeconfig.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\bin\Debug\netcoreapp2.1\06.Sold_Products.runtimeconfig.dev.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\bin\Debug\netcoreapp2.1\06.Sold_Products.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\bin\Debug\netcoreapp2.1\06.Sold_Products.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\bin\Debug\netcoreapp2.1\ProductShopDatabase.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\bin\Debug\netcoreapp2.1\ProductShopDatabase.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\obj\Debug\netcoreapp2.1\06.Sold_Products.csprojAssemblyReference.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\obj\Debug\netcoreapp2.1\06.Sold_Products.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\obj\Debug\netcoreapp2.1\06.Sold_Products.AssemblyInfoInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\obj\Debug\netcoreapp2.1\06.Sold_Products.AssemblyInfo.cs
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\obj\Debug\netcoreapp2.1\06.Sold_Products.csproj.CopyComplete
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\obj\Debug\netcoreapp2.1\06.Sold_Products.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\.vs\06.Sold_Products\obj\Debug\netcoreapp2.1\06.Sold_Products.pdb
