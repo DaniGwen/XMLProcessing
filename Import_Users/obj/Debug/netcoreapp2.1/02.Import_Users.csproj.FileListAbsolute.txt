@@ -1,0 +1,14 @@
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\bin\Debug\netcoreapp2.1\02.Import_Users.deps.json
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\bin\Debug\netcoreapp2.1\02.Import_Users.runtimeconfig.json
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\bin\Debug\netcoreapp2.1\02.Import_Users.runtimeconfig.dev.json
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\bin\Debug\netcoreapp2.1\02.Import_Users.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\bin\Debug\netcoreapp2.1\02.Import_Users.pdb
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\bin\Debug\netcoreapp2.1\ProductShopDatabase.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\bin\Debug\netcoreapp2.1\ProductShopDatabase.pdb
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\obj\Debug\netcoreapp2.1\02.Import_Users.csprojAssemblyReference.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\obj\Debug\netcoreapp2.1\02.Import_Users.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\obj\Debug\netcoreapp2.1\02.Import_Users.AssemblyInfoInputs.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\obj\Debug\netcoreapp2.1\02.Import_Users.AssemblyInfo.cs
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\obj\Debug\netcoreapp2.1\02.Import_Users.csproj.CopyComplete
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\obj\Debug\netcoreapp2.1\02.Import_Users.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\Import_Users\obj\Debug\netcoreapp2.1\02.Import_Users.pdb

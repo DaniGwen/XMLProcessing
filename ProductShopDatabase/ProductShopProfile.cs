@@ -6,6 +6,7 @@ namespace ProductShop
     {
         public ProductShopProfile()
         {
+           
         }
     }
 }

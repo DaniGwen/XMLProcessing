@@ -1,0 +1,14 @@
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\obj\Debug\netcoreapp2.1\05.Products_In_Range.csprojAssemblyReference.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\obj\Debug\netcoreapp2.1\05.Products_In_Range.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\obj\Debug\netcoreapp2.1\05.Products_In_Range.AssemblyInfoInputs.cache
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\obj\Debug\netcoreapp2.1\05.Products_In_Range.AssemblyInfo.cs
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\bin\Debug\netcoreapp2.1\05.Products_In_Range.deps.json
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\bin\Debug\netcoreapp2.1\05.Products_In_Range.runtimeconfig.json
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\bin\Debug\netcoreapp2.1\05.Products_In_Range.runtimeconfig.dev.json
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\bin\Debug\netcoreapp2.1\05.Products_In_Range.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\bin\Debug\netcoreapp2.1\05.Products_In_Range.pdb
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\bin\Debug\netcoreapp2.1\ProductShopDatabase.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\bin\Debug\netcoreapp2.1\ProductShopDatabase.pdb
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\obj\Debug\netcoreapp2.1\05.Products_In_Range.csproj.CopyComplete
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\obj\Debug\netcoreapp2.1\05.Products_In_Range.dll
+C:\Users\thinkpad\source\repos\XMLProcessing\05.Products_In_Range\obj\Debug\netcoreapp2.1\05.Products_In_Range.pdb
