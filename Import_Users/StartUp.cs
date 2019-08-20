@@ -15,7 +15,7 @@ namespace Import_Users
         static void Main()
         {
 
-            var usersXml = File.ReadAllText(@"C:\Users\thinkpad\source\repos\XMLProcessing\ProductShopDatabase\Datasets\users.xml");
+            var usersXml = File.ReadAllText(@"..\..\..\Datasets\users.xml");
             
             using (var context = new ProductShopContext())
             {
@@ -44,6 +44,9 @@ namespace Import_Users
 
                 usersList.Add(newUser);
             }
+
+            context.Users.AddRange(usersList);
+            context.SaveChanges();
 
             return $"Successfully imported {usersList.Count}";
         }

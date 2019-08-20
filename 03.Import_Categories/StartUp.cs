@@ -1,6 +1,7 @@
 ﻿using ProductShop.Data;
 using ProductShop.Models;
 using System;
+using System.Collections.Generic;
 using System.Xml.Linq;
 
 namespace _03.Import_Categories
@@ -22,22 +23,25 @@ namespace _03.Import_Categories
         public static string ImportCategories(ProductShopContext context, string inputXml)
         {
             XDocument xmlDoc = XDocument.Load(inputXml);
-            int imported = 0;
+
             var categories = xmlDoc.Root.Elements();
+
+            var categoriesList = new List<Category>();
 
             foreach (var categorie in categories)
             {
-                var contextCategorie = new Category()
+                var newCategorie = new Category()
                 {
                     Name = categorie.Element("name").Value
                 };
 
-                context.Categories.Add(contextCategorie);
-                context.SaveChanges();
-                imported += 1;
+                categoriesList.Add(newCategorie);
             }
 
-            return $"Successfully imported {imported}";
+            context.Categories.AddRange(categoriesList);
+            context.SaveChanges();
+
+            return $"Successfully imported {categoriesList.Count}";
         }
     }
 }

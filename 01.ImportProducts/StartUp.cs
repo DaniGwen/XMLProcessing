@@ -11,7 +11,7 @@ namespace _01.ImportProducts
     {
         static void Main(string[] args)
         {
-            string inputXml = @"C:\Users\thinkpad\Desktop\ProductShop\ProductShop\Datasets\products.xml";
+            string inputXml = @"..\..\..\Datasets\products.xml";
 
             using (var context = new ProductShopContext())
             {
