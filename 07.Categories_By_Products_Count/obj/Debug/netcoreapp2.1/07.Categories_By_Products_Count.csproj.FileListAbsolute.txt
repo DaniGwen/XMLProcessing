@@ -1,0 +1,14 @@
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\bin\Debug\netcoreapp2.1\07.Categories_By_Products_Count.deps.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\bin\Debug\netcoreapp2.1\07.Categories_By_Products_Count.runtimeconfig.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\bin\Debug\netcoreapp2.1\07.Categories_By_Products_Count.runtimeconfig.dev.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\bin\Debug\netcoreapp2.1\07.Categories_By_Products_Count.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\bin\Debug\netcoreapp2.1\07.Categories_By_Products_Count.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\bin\Debug\netcoreapp2.1\ProductShopDatabase.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\bin\Debug\netcoreapp2.1\ProductShopDatabase.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\obj\Debug\netcoreapp2.1\07.Categories_By_Products_Count.csprojAssemblyReference.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\obj\Debug\netcoreapp2.1\07.Categories_By_Products_Count.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\obj\Debug\netcoreapp2.1\07.Categories_By_Products_Count.AssemblyInfoInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\obj\Debug\netcoreapp2.1\07.Categories_By_Products_Count.AssemblyInfo.cs
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\obj\Debug\netcoreapp2.1\07.Categories_By_Products_Count.csproj.CopyComplete
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\obj\Debug\netcoreapp2.1\07.Categories_By_Products_Count.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\07.Categories_By_Products_Count\obj\Debug\netcoreapp2.1\07.Categories_By_Products_Count.pdb
