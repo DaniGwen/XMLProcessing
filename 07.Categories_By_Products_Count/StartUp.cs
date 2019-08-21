@@ -1,6 +1,10 @@
 ﻿using ProductShop.Data;
 using System;
+using System.IO;
 using System.Linq;
+using System.Text;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace _07.Categories_By_Products_Count
 {
@@ -18,18 +22,30 @@ namespace _07.Categories_By_Products_Count
         public static string GetCategoriesByProductsCount(ProductShopContext context)
         {
             var categories = context.Categories
-                .Select(c => new
+                .Select(c => new ProductsCountDto
                 {
-                    name = c.Name,
-                    countProducts = c.CategoryProducts.Count,
-                    average = c.CategoryProducts.Average(p => p.Product.Price),
-                    totalPrice = c.CategoryProducts.Sum(p => p.Product.Price)
+                    Name = c.Name,
+                    ProductsCount = c.CategoryProducts.Count,
+                    AveragePrice = c.CategoryProducts.Average(p => p.Product.Price),
+                    TotalRevenue = c.CategoryProducts.Sum(p => p.Product.Price)
                 })
-                .OrderBy(p => p.countProducts)
-                .ThenBy(p => p.totalPrice)
-                .ToList();
-            ;
-            return "";
+                .OrderByDescending(p => p.ProductsCount)
+                .ThenBy(p => p.TotalRevenue)
+                .ToArray();
+
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(ProductsCountDto[]),
+                new XmlRootAttribute("Categories"));
+
+            var sb = new StringBuilder();
+
+            var xmlNameSpaces = new XmlSerializerNamespaces(new[]
+            {
+                new XmlQualifiedName("","")
+            });
+
+            xmlSerializer.Serialize(new StringWriter(sb), categories, xmlNameSpaces);
+
+            return sb.ToString();
         }
     }
 }
