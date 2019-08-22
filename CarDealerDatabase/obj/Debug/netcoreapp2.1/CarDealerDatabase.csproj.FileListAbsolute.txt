@@ -1,0 +1,11 @@
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\obj\Debug\netcoreapp2.1\CarDealerDatabase.csprojAssemblyReference.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\obj\Debug\netcoreapp2.1\CarDealerDatabase.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\obj\Debug\netcoreapp2.1\CarDealerDatabase.AssemblyInfoInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\obj\Debug\netcoreapp2.1\CarDealerDatabase.AssemblyInfo.cs
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\bin\Debug\netcoreapp2.1\CarDealerDatabase.deps.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\bin\Debug\netcoreapp2.1\CarDealerDatabase.runtimeconfig.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\bin\Debug\netcoreapp2.1\CarDealerDatabase.runtimeconfig.dev.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\bin\Debug\netcoreapp2.1\CarDealerDatabase.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\bin\Debug\netcoreapp2.1\CarDealerDatabase.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\obj\Debug\netcoreapp2.1\CarDealerDatabase.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\obj\Debug\netcoreapp2.1\CarDealerDatabase.pdb
