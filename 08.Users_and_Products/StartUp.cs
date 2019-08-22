@@ -56,7 +56,7 @@ namespace _08.Users_and_Products
 
             var namespaces = new XmlSerializerNamespaces(new[]
             {
-                new XmlQualifiedName("","")
+                 XmlQualifiedName.Empty
             });
 
             xmlSerializer.Serialize(new StringWriter(sb), users, namespaces);

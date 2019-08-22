@@ -5,7 +5,6 @@ using System.Xml.Serialization;
 
 namespace _08.Users_and_Products
 {
-    [XmlRoot("Users")]
     public class ExportCustomUserDto
     {
         [XmlElement("count")]
