@@ -1,0 +1,14 @@
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\obj\Debug\netcoreapp2.1\08.Users_and_Products.csprojAssemblyReference.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\obj\Debug\netcoreapp2.1\08.Users_and_Products.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\obj\Debug\netcoreapp2.1\08.Users_and_Products.AssemblyInfoInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\obj\Debug\netcoreapp2.1\08.Users_and_Products.AssemblyInfo.cs
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\bin\Debug\netcoreapp2.1\08.Users_and_Products.deps.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\bin\Debug\netcoreapp2.1\08.Users_and_Products.runtimeconfig.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\bin\Debug\netcoreapp2.1\08.Users_and_Products.runtimeconfig.dev.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\bin\Debug\netcoreapp2.1\08.Users_and_Products.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\bin\Debug\netcoreapp2.1\08.Users_and_Products.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\bin\Debug\netcoreapp2.1\ProductShopDatabase.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\bin\Debug\netcoreapp2.1\ProductShopDatabase.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\obj\Debug\netcoreapp2.1\08.Users_and_Products.csproj.CopyComplete
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\obj\Debug\netcoreapp2.1\08.Users_and_Products.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\08.Users_and_Products\obj\Debug\netcoreapp2.1\08.Users_and_Products.pdb

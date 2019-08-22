@@ -6,4 +6,8 @@
     <RootNamespace>_08.Users_and_Products</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\source\repos\XMLProcessing\ProductShopDatabase\ProductShopDatabase.csproj" />
+  </ItemGroup>
+
 </Project>

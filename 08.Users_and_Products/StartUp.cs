@@ -1,5 +1,10 @@
 ﻿using ProductShop.Data;
 using System;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Xml;
+using System.Xml.Serialization;
 
 namespace _08.Users_and_Products
 {
@@ -9,13 +14,54 @@ namespace _08.Users_and_Products
         {
             using (var context = new ProductShopContext())
             {
-
+                var result = GetUsersWithProducts(context);
+                Console.WriteLine(result);
             }
         }
 
         public static string GetUsersWithProducts(ProductShopContext context)
         {
+            var users = context.Users
+                .Where(u => u.ProductsSold.Any())
+                .OrderByDescending(u => u.ProductsSold.Count)
+                .Select(u => new ExportCustomUserDto
+                {
+                    Count = u.ProductsSold.Count(),
+                    UsersAndProductsDto = context.Users.Select(x => new UsersAndProductsDto
+                    {
+                        FirstName = u.FirstName,
+                        LastName = u.LastName,
+                        Age = u.Age,
+                        SoldProductDto = new SoldProductDto
+                        {
+                            Count = u.ProductsSold.Count(),
+                            ProductDto = u.ProductsSold
+                        .Select(y => new ProductDto
+                        {
+                            Name = y.Name,
+                            Price = y.Price
+                        })
+                        .OrderByDescending(y => y.Price)
+                        .ToArray()
+                        }
+                    }).ToArray()
+                })
+                .OrderByDescending(p => p.Count)
+                .ToArray();
 
+            var xmlSerializer = new XmlSerializer(typeof(UsersAndProductsDto[]),
+                new XmlRootAttribute("users"));
+
+            var sb = new StringBuilder();
+
+            var namespaces = new XmlSerializerNamespaces(new[]
+            {
+                new XmlQualifiedName("","")
+            });
+
+            xmlSerializer.Serialize(new StringWriter(sb), users, namespaces);
+
+            return sb.ToString();
         }
     }
 }
