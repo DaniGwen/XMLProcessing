@@ -23,7 +23,7 @@ namespace _08.Users_and_Products
         {
             var users = context.Users
                 .Where(u => u.ProductsSold.Any())
-                .OrderByDescending(u => u.ProductsSold.Count)
+                .Take(5)
                 .Select(u => new ExportCustomUserDto
                 {
                     Count = u.ProductsSold.Count(),
@@ -44,13 +44,13 @@ namespace _08.Users_and_Products
                         .OrderByDescending(y => y.Price)
                         .ToArray()
                         }
-                    }).ToArray()
+                    })
+                    .ToArray()
                 })
                 .OrderByDescending(p => p.Count)
                 .ToArray();
 
-            var xmlSerializer = new XmlSerializer(typeof(UsersAndProductsDto[]),
-                new XmlRootAttribute("users"));
+            var xmlSerializer = new XmlSerializer(typeof(ExportCustomUserDto[]), new XmlRootAttribute("Users"));
 
             var sb = new StringBuilder();
 

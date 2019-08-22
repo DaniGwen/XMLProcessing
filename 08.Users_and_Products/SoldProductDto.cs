@@ -8,7 +8,7 @@ namespace _08.Users_and_Products
         [XmlElement("count")]
         public int Count { get; set; }
 
-        [XmlArray("Products")]
+        [XmlArray("products")]
         public ProductDto[] ProductDto { get; set; }
     }
 }
