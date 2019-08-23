@@ -1,0 +1,14 @@
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\bin\Debug\netcoreapp2.1\09.Import_Suppliers.deps.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\bin\Debug\netcoreapp2.1\09.Import_Suppliers.runtimeconfig.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\bin\Debug\netcoreapp2.1\09.Import_Suppliers.runtimeconfig.dev.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\bin\Debug\netcoreapp2.1\09.Import_Suppliers.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\bin\Debug\netcoreapp2.1\09.Import_Suppliers.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\bin\Debug\netcoreapp2.1\CarDealerDatabase.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\bin\Debug\netcoreapp2.1\CarDealerDatabase.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\obj\Debug\netcoreapp2.1\09.Import_Suppliers.csprojAssemblyReference.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\obj\Debug\netcoreapp2.1\09.Import_Suppliers.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\obj\Debug\netcoreapp2.1\09.Import_Suppliers.AssemblyInfoInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\obj\Debug\netcoreapp2.1\09.Import_Suppliers.AssemblyInfo.cs
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\obj\Debug\netcoreapp2.1\09.Import_Suppliers.csproj.CopyComplete
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\obj\Debug\netcoreapp2.1\09.Import_Suppliers.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\09.Import_Suppliers\obj\Debug\netcoreapp2.1\09.Import_Suppliers.pdb
