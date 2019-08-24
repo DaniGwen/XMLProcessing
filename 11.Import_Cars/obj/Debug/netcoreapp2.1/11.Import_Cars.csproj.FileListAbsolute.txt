@@ -1,0 +1,14 @@
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\bin\Debug\netcoreapp2.1\11.Import_Cars.deps.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\bin\Debug\netcoreapp2.1\11.Import_Cars.runtimeconfig.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\bin\Debug\netcoreapp2.1\11.Import_Cars.runtimeconfig.dev.json
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\bin\Debug\netcoreapp2.1\11.Import_Cars.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\bin\Debug\netcoreapp2.1\11.Import_Cars.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\bin\Debug\netcoreapp2.1\CarDealerDatabase.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\bin\Debug\netcoreapp2.1\CarDealerDatabase.pdb
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\obj\Debug\netcoreapp2.1\11.Import_Cars.csprojAssemblyReference.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\obj\Debug\netcoreapp2.1\11.Import_Cars.csproj.CoreCompileInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\obj\Debug\netcoreapp2.1\11.Import_Cars.AssemblyInfoInputs.cache
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\obj\Debug\netcoreapp2.1\11.Import_Cars.AssemblyInfo.cs
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\obj\Debug\netcoreapp2.1\11.Import_Cars.csproj.CopyComplete
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\obj\Debug\netcoreapp2.1\11.Import_Cars.dll
+C:\Users\thinkpad\Documents\GitHub\XMLProcessing\11.Import_Cars\obj\Debug\netcoreapp2.1\11.Import_Cars.pdb
