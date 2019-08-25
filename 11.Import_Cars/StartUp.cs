@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
@@ -17,23 +18,40 @@ namespace _11.Import_Cars
 
             using (var context = new CarDealerContext())
             {
-                var result = ImportCarsXDocument(context, inputXml);
+                var result = ImportCars(context, inputXml);
             }
         }
 
-        public static string ImportCarsXDocument(CarDealerContext context, string inputXml)
+        public static string ImportCars(CarDealerContext context, string inputXml)
         {
             XDocument xDocument = XDocument.Load(inputXml);
             var cars = xDocument.Root.Elements().ToArray();
-            var listCarsDto = new List<Car>();
+            var listOfCars = new List<Car>();
+
+            int maxPartsId = context.Parts.Count();
 
             foreach (var car in cars)
             {
                 var partId = car.Element("parts").Nodes().ToArray();
+                var listOfPartId = new List<PartCar>();
 
                 foreach (var part in partId)
                 {
-                    var id = part.ToString();
+                    string pattern = @"[0-9]+";
+                    var regex = Regex.Match(part.ToString(), pattern);
+                    int id = int.Parse(regex.ToString());
+
+                    if (id > maxPartsId)
+                    {
+                        continue;
+                    }
+
+                    var partItem = new PartCar
+                    {
+                        PartId = id
+                    };
+
+                    listOfPartId.Add(partItem);
                 }
 
                 var contextCar = new Car
@@ -41,58 +59,16 @@ namespace _11.Import_Cars
                     Make = car.Element("make").Value,
                     Model = car.Element("model").Value,
                     TravelledDistance = long.Parse(car.Element("TraveledDistance").Value),
-
-                    
-                };
-            }
-
-            return "";
-        }
-        public static string ImportCars(CarDealerContext context, string inputXml)
-        {
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(ImportCarsDto[]),
-                new XmlRootAttribute("Cars"));
-
-            var carsDto = (ImportCarsDto[])xmlSerializer.Deserialize(new StringReader(inputXml));
-
-            var listCarsDto = new List<Car>();
-
-            var maxPartId = context.Parts.Count();
-
-            foreach (var carDto in carsDto)
-            {
-                var listOfParts = new List<PartCar>();
-
-                //foreach (var part in carDto.Parts)
-                //{
-                //   if (part.PartId > maxPartId)
-                //    {
-                //        continue;
-                //    }
-
-                //    var partCar = new PartCar
-                //    {
-                //        PartId = part.PartId
-                //    };
-
-                //    listOfParts.Add(partCar);
-                //}
-
-                var car = new Car
-                {
-                  Make = carDto.Make,
-                  Model = carDto.Model,
-                  TravelledDistance = carDto.TraveledDistance,
-                 PartCars = listOfParts
+                    PartCars = listOfPartId
                 };
 
-                listCarsDto.Add(car);
+                listOfCars.Add(contextCar);
             }
 
-            context.Cars.AddRange(listCarsDto);
+            context.Cars.AddRange(listOfCars);
             context.SaveChanges();
 
-            return $"Successfully imported {listCarsDto.Count}";
+            return $"Successfully imported {listOfCars.Count}";
         }
     }
 }

@@ -16,6 +16,6 @@ namespace _11.Import_Cars
         public long TraveledDistance { get; set; }
 
         [XmlArray("parts")]
-        public Parts[] Parts { get; set; }
+        public Part[] Parts { get; set; }
     }
 }
