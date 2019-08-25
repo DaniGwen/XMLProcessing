@@ -3,9 +3,9 @@ using System.Xml.Serialization;
 
 namespace _11.Import_Cars
 {
-    public class PartDto
+    public class Parts
     {
-        [XmlElement("partId")]
+        [XmlAttribute("partId")]
         public int PartId { get; set; }
     }
 }
