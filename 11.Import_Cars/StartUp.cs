@@ -1,12 +1,9 @@
 ﻿using CarDealer.Data;
 using CarDealer.Models;
-using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
-using System.Xml.Serialization;
 
 namespace _11.Import_Cars
 {
@@ -14,7 +11,8 @@ namespace _11.Import_Cars
     {
         static void Main()
         {
-            string inputXml = @"C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\Datasets\cars.xml";
+            string inputXml =
+                @"C:\Users\thinkpad\Documents\GitHub\XMLProcessing\CarDealerDatabase\Datasets\cars.xml";
 
             using (var context = new CarDealerContext())
             {
@@ -25,15 +23,26 @@ namespace _11.Import_Cars
         public static string ImportCars(CarDealerContext context, string inputXml)
         {
             XDocument xDocument = XDocument.Load(inputXml);
+
             var cars = xDocument.Root.Elements().ToArray();
+
             var listOfCars = new List<Car>();
 
-            int maxPartsId = context.Parts.Count();
+            int carId = 1;
+
+            var maxPartsId = context.Parts.Count();
 
             foreach (var car in cars)
             {
                 var partId = car.Element("parts").Nodes().ToArray();
-                var listOfPartId = new List<PartCar>();
+
+                var myCar = new Car
+                {
+                    //Id = carId,
+                    Make = car.Element("make").Value,
+                    Model = car.Element("model").Value,
+                    TravelledDistance = long.Parse(car.Element("TraveledDistance").Value)
+                };
 
                 foreach (var part in partId)
                 {
@@ -46,26 +55,20 @@ namespace _11.Import_Cars
                         continue;
                     }
 
-                    var partItem = new PartCar
+                    myCar.PartCars.Add(new PartCar
                     {
+                        CarId = myCar.Id,
                         PartId = id
-                    };
-
-                    listOfPartId.Add(partItem);
+                    });
                 }
 
-                var contextCar = new Car
-                {
-                    Make = car.Element("make").Value,
-                    Model = car.Element("model").Value,
-                    TravelledDistance = long.Parse(car.Element("TraveledDistance").Value),
-                    PartCars = listOfPartId
-                };
+                listOfCars.Add(myCar);
 
-                listOfCars.Add(contextCar);
+                context.Cars.Add(myCar);
+
+                carId += 1;
             }
 
-            context.Cars.AddRange(listOfCars);
             context.SaveChanges();
 
             return $"Successfully imported {listOfCars.Count}";

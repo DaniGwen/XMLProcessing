@@ -29,6 +29,8 @@ namespace CarDealer.Data
             {
                 optionsBuilder.UseSqlServer(@"Server=ThinkPad-DN\SQLEXPRESS;Database=CarDealerDB;Integrated Security=True");
             }
+
+            optionsBuilder.EnableSensitiveDataLogging();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
