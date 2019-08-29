@@ -28,23 +28,20 @@ namespace _11.Import_Cars
 
             var listOfCars = new List<Car>();
 
-            int carId = 1;
-
             var maxPartsId = context.Parts.Count();
 
             foreach (var car in cars)
             {
-                var partId = car.Element("parts").Nodes().ToArray();
+                var partElements = car.Element("parts").Nodes().ToArray();
 
                 var myCar = new Car
                 {
-                    //Id = carId,
                     Make = car.Element("make").Value,
                     Model = car.Element("model").Value,
                     TravelledDistance = long.Parse(car.Element("TraveledDistance").Value)
                 };
 
-                foreach (var part in partId)
+                foreach (var part in partElements)
                 {
                     string pattern = @"[0-9]+";
                     var regex = Regex.Match(part.ToString(), pattern);
@@ -57,18 +54,14 @@ namespace _11.Import_Cars
 
                     myCar.PartCars.Add(new PartCar
                     {
-                        CarId = myCar.Id,
                         PartId = id
                     });
                 }
 
                 listOfCars.Add(myCar);
-
-                context.Cars.Add(myCar);
-
-                carId += 1;
             }
 
+            context.Cars.AddRange(listOfCars);
             context.SaveChanges();
 
             return $"Successfully imported {listOfCars.Count}";
